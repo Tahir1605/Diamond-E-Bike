@@ -5,8 +5,14 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body {
+html,body {
   background: #f4f4f4;
+  max-width: 100svw;
+  overflow-x: hidden;
+}
+:root{
+  --light-blue: #2192ff;
+  --shitty-purple: #622a6e;
 }
 
 /* Navbar CSS */
@@ -1666,3 +1672,65 @@ body {
 }
 
 
+
+/* about us Cl*/
+.aboutus-contanier{
+  margin-top: 150px;
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.aboutus-contanier h1{
+  color: var(--light-blue);
+}
+.aboutus-contanier h2,h3,h4{
+  color: var(--shitty-purple);
+}
+.aboutus-contanier .x{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+}
+.aboutus-contanier .contanier{
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.aboutus-contanier .contanier .logo-image,.about-child{
+  min-width: 350px;
+  height: auto;
+  max-width: 50%;
+}
+.aboutus-contanier .about-child ,h1,h3,p{
+  padding-top: 10px;
+
+}
+.aboutus-contanier .about-child li{
+  margin-left: 10%;
+  gap: 5px;
+  padding-top: 2px;
+  list-style: none;
+}
+.aboutus-contanier .about-child li::before{
+  content: "\2713";
+  color: var(--shitty-purple);
+  font-size: 0.8rem;
+  background-color: var(--light-blue);
+  border-radius: 50%;
+  padding: 2px 4px 2px 4px;
+}
+.aboutus-contanier .about-child li:hover{
+  color: var(--shitty-purple);
+  cursor: pointer;
+  padding-left: 5px;
+}
