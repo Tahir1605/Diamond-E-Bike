@@ -1,7 +1,7 @@
 <h1 align="center">⚡ Electric Scooter Showroom Website ⚡</h1>
 
 <p align="center">
-  <img src="screenshots/scooter-showroom-preview.gif" alt="Project Screenshot" width="90%" />
+  <img src="screenshots/img-1.webp" alt="Project Screenshot" width="90%" />
 </p>
 
 ---
